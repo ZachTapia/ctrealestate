@@ -24,3 +24,14 @@
 #contact {
   margin-left: auto;
 }
+
+@media (min-width: 600px) {
+  .nav {
+    height: 8vh;
+  }
+
+  .nav__logo,
+  .nav__link {
+    font-size: 1.2vw;
+  }
+}
