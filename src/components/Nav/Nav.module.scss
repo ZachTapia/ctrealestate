@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  height: 10vh;
+  justify-content: flex-start;
+  padding: 4%;
+  align-items: center;
+}
+
+.nav__logo,
+.nav__link {
+  font-family: Merriweather;
+  font-size: 3vw;
+  text-decoration: none;
+}
+
+.nav__logo {
+  font-size: 3vw;
+}
+
+.nav__link {
+  margin-left: 5vw;
+}
+
+#contact {
+  margin-left: auto;
+}

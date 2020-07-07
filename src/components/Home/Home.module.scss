@@ -1,0 +1,57 @@
+.home__header {
+  height: 50vh;
+  position: relative;
+}
+
+.home__header__text {
+  font-family: Merriweather;
+  font-size: 8vw;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.home__header__image {
+  position: absolute;
+  background-image: url(../../images/home.png);
+  background-size: cover;
+  width: 75vw;
+  height: 50vh;
+  top: 70%;
+  left: 12.5%;
+}
+
+.home__info {
+  height: 240vh;
+  background-color: #fff;
+}
+
+.home__info {
+  padding: 40vh 5vw 0;
+}
+
+.home__info__description,
+.home__about__description,
+.home__testimonials__description {
+  color: black;
+  font-size: 5vw;
+}
+
+.home__about,
+.home__testimonials {
+  margin: 5vh 0;
+}
+
+.home__about__title,
+.home__testimonials__title {
+  font-family: Merriweather;
+  font-size: 8vw;
+  color: black;
+}
+
+.home__about__image {
+  background-image: url(../../images/mom.png);
+  background-size: cover;
+  width: 75vw;
+  height: 50vh;
+  margin: 2vh auto;
+}
