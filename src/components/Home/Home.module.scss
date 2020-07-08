@@ -3,85 +3,101 @@
   font-size: 8vw;
   text-align: center;
   padding-top: 7vh;
-  height: 40vh;
+  height: 50vh;
 }
 
-.home__title__image,
+.home__intro__image,
 .home__about__image {
   width: 80vw;
-  margin: 5vh auto;
+}
+
+.home__about__image {
+  margin: 0 auto;
 }
 
 .home__intro {
+  position: relative;
   height: 95vh;
   background-color: #fff;
-  color: black;
-  font-size: 5vw;
-  padding: 40vh 3vw;
 }
 
-.home__about,
-.home__testimonials {
+.home__intro__text {
+  color: black;
+  font-size: 5vw;
+  padding: 35vh 4vw;
+  line-height: 1.5;
+}
+
+.image__wrapper {
+  position: absolute;
+  top: -30%;
+  left: 10%;
+  right: 10%;
+}
+
+.home__about {
   background-color: #fff;
 }
 
 .home__about__title {
   font-family: Merriweather;
   font-size: 8vw;
-  color: black;
-  margin-bottom: 2vh;
-  padding: 0 3vw;
+  color: #5d2a29;
 }
 
-.home__about__description {
+.home__about__text {
   color: black;
   font-size: 5vw;
-  padding: 0 3vw;
-}
-
-.home__testimonials {
-  background-color: #fff;
-  padding-top: 8vh;
-}
-
-.home__testimonials__title {
-  font-family: Merriweather;
-  font-size: 8vw;
-  color: black;
-  margin-bottom: 2vh;
-  padding: 0 3vw;
-}
-
-.home__testimonials__description {
-  color: black;
-  font-size: 5vw;
-  padding: 0 3vw 5vh;
+  padding: 3vh 4vw 1.5vh;
+  line-height: 1.5;
 }
 
 @media (min-width: 600px) {
-  .home__header__title {
+  .home__title {
     font-size: 4.4vw;
-    text-align: center;
     padding-top: 14vh;
   }
 
-  .home__header__image {
+  .home__intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .home__intro__image,
+  .home__about__image {
     width: 25vw;
   }
 
-  .home__info {
-    padding: 40vh 5vw 0;
+  .home__intro__text,
+  .home__about__text {
+    font-size: 1.5vw;
+    max-width: 35vw;
+    padding: 0;
   }
 
-  .home__info__description,
-  .home__about__description,
-  .home__testimonials__description {
+  .image__wrapper {
+    position: static;
+  }
+
+  .home__about__text {
     color: black;
     font-size: 1.2vw;
   }
 
-  .home__about__title,
-  .home__testimonials__title {
+  .home__about__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .home__about__image {
+    margin: 0;
+  }
+
+  .home__about__title {
     font-size: 2vw;
+    padding: 0;
   }
 }
