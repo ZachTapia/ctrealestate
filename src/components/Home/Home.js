@@ -15,7 +15,7 @@ const Home = () => {
         }
       }
 
-      christineImage: file(relativePath: { eq: "images/mom.png" }) {
+      christineImage: file(relativePath: { eq: "images/christine2.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

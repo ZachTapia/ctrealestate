@@ -19,6 +19,7 @@ const Testimonials = () => {
       <div className={styles.testimonials__title}>Happy Clients</div>
       <div className={styles.testimonials__wrapper}>
         <Carousel
+          autoPlay={true}
           showStatus={false}
           renderIndicator={(onClickHandler, isSelected) => {
             if (isSelected) {
