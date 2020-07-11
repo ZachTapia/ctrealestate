@@ -27,10 +27,7 @@ const Home = () => {
 
   return (
     <div className={styles.home}>
-      <div className={styles.home__title}>
-        Let me find your <br />
-        dream home
-      </div>
+      <div className={styles.home__title}>"Let me find your dream home"</div>
 
       <div className={styles.home__intro}>
         <div className={styles.image__wrapper}>
