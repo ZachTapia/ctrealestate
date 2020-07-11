@@ -5,7 +5,7 @@ import styles from "./Nav.module.scss"
 const Nav = () => {
   return (
     <div className={styles.nav}>
-      <div className={styles.nav__logo}>Christine Tapia Real Estate</div>
+      <div className={styles.nav__logo}>Christine Tapia</div>
       <Link className={styles.nav__link} id={styles.contact} to="/">
         Contact
       </Link>
