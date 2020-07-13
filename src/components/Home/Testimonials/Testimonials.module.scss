@@ -1,3 +1,5 @@
+$backgroundColor: #457b9d;
+
 .testimonials {
   background-color: #fff;
   padding: 5vh 0;
@@ -6,7 +8,7 @@
 .testimonials__title {
   font-family: Merriweather;
   font-size: 8vw;
-  color: #5d2a29;
+  color: $backgroundColor;
   background-color: #fff;
   padding: 3vw;
 }
