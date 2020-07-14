@@ -1,0 +1,75 @@
+.property {
+  position: relative;
+  width: 90vw;
+  height: 40vh;
+  border: #111 solid 1px;
+  margin: 1vh 0;
+  background-color: #ddd;
+}
+
+.property__image {
+  max-height: 50vh;
+}
+
+.property__address {
+  font-size: 6vw;
+  color: black;
+  margin: 1vh 3vw 0;
+}
+
+.property__dateSold {
+  font-size: 4vw;
+  color: #333;
+  margin: 0 3vw;
+}
+
+.property__price {
+  font-size: 5vw;
+  color: #333;
+  margin: 0 3vw;
+}
+
+.property__sold {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  font-size: 6vw;
+  color: #0b5a0b;
+  margin: 0 3vw;
+}
+
+@media (min-width: 600px) {
+  .property {
+    width: 40vw;
+    height: 50vh;
+    margin: 1vh 1vw;
+  }
+
+  .property__image {
+    max-height: 30vh;
+  }
+
+  .property__address {
+    font-size: 2vw;
+    margin: 1vh 3vw 0;
+  }
+
+  .property__dateSold {
+    font-size: 1.2vw;
+    margin: 0 3vw;
+  }
+
+  .property__price {
+    font-size: 1.6vw;
+    margin: 0 3vw;
+  }
+
+  .property__sold {
+    position: absolute;
+    bottom: 55px;
+    right: 10px;
+    font-size: 3vw;
+    color: #0b5a0b;
+    margin: 0 3vw;
+  }
+}
