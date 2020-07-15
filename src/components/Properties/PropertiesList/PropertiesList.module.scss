@@ -1,0 +1,15 @@
+.properties-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+@media (min-width: 600px) {
+  .properties-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2vh 0;
+  }
+}

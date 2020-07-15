@@ -1,8 +1,10 @@
+$backgroundColor: #457b9d;
+
 .home__title {
   // font-family: Merriweather;
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-size: 8vw;
+  font-size: 6.5vw;
   text-align: center;
   padding-top: 7vh;
   height: 40vh;
@@ -32,7 +34,7 @@
 
 .image__wrapper {
   position: absolute;
-  top: -30%;
+  top: -20%;
   left: 10%;
   right: 10%;
 }
@@ -44,7 +46,7 @@
 .home__about__title {
   font-family: Merriweather;
   font-size: 8vw;
-  color: #5d2a29;
+  color: $backgroundColor;
 }
 
 .home__about__text {
