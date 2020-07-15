@@ -1,75 +1,73 @@
 .property {
   position: relative;
   width: 90vw;
-  height: 40vh;
+  height: 45.5vh;
   border: #111 solid 1px;
   margin: 1vh 0;
   background-color: #ddd;
 }
 
 .property__image {
-  max-height: 50vh;
+  height: 30vh;
 }
 
 .property__address {
-  font-size: 6vw;
+  display: flex;
+}
+
+.property__street,
+.property__city {
+  font-family: Merriweather;
+  font-size: 4.5vw;
   color: black;
-  margin: 1vh 3vw 0;
 }
 
-.property__dateSold {
-  font-size: 4vw;
-  color: #333;
-  margin: 0 3vw;
+.property__street {
+  margin: 2vh 0 0 2vw;
 }
 
-.property__price {
-  font-size: 5vw;
+.property__city {
+  margin: 2vh 2vw 0 auto;
+}
+
+.property__price,
+.property__bedBath {
+  font-size: 4.5vw;
   color: #333;
   margin: 0 3vw;
 }
 
 .property__sold {
-  position: absolute;
-  bottom: 15px;
-  right: 10px;
+  font-family: Merriweather;
   font-size: 6vw;
   color: #0b5a0b;
-  margin: 0 3vw;
+  text-align: right;
+  margin: 0 2vw;
 }
 
 @media (min-width: 600px) {
   .property {
     width: 40vw;
-    height: 50vh;
+    height: 57.5vh;
     margin: 1vh 1vw;
   }
 
   .property__image {
-    max-height: 30vh;
+    height: 40vh;
   }
 
-  .property__address {
-    font-size: 2vw;
-    margin: 1vh 3vw 0;
+  .property__street,
+  .property__city {
+    font-size: 1.3vw;
   }
 
-  .property__dateSold {
-    font-size: 1.2vw;
-    margin: 0 3vw;
-  }
-
-  .property__price {
-    font-size: 1.6vw;
-    margin: 0 3vw;
+  .property__price,
+  .property__bedBath {
+    font-size: 1.3vw;
+    margin: 0 2vw;
   }
 
   .property__sold {
-    position: absolute;
-    bottom: 55px;
-    right: 10px;
-    font-size: 3vw;
-    color: #0b5a0b;
-    margin: 0 3vw;
+    font-size: 1.4vw;
   }
 }
