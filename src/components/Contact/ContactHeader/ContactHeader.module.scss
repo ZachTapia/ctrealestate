@@ -1,0 +1,27 @@
+.contact__header {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 6.5vw;
+  text-align: center;
+  padding: 7vh 0 2vh;
+}
+
+.contact__header__description {
+  font-size: 5vw;
+  text-align: center;
+  padding: 0 3.5vw;
+}
+
+@media (min-width: 600px) {
+  .contact__header {
+    font-size: 4.4vw;
+    padding-top: 14vh;
+  }
+
+  .contact__header__description {
+    font-size: 1.5vw;
+    max-width: 35vw;
+    padding: 0;
+    margin: 0 auto;
+  }
+}

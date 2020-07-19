@@ -8,7 +8,7 @@ const Nav = () => {
       <Link className={styles.nav__logo} to="/">
         Christine Tapia
       </Link>
-      <Link className={styles.nav__link} id={styles.contact} to="/">
+      <Link className={styles.nav__link} id={styles.contact} to="/contact">
         Contact
       </Link>
       <Link className={styles.nav__link} to="/properties">
