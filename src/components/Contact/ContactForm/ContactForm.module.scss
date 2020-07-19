@@ -32,3 +32,21 @@
   border-radius: 5px;
   margin: 3vh 0;
 }
+
+@media (min-width: 600px) {
+  .contact-form {
+    font-size: 2vw;
+    margin: 5vh;
+
+    input {
+      width: 30vw;
+      height: 50px;
+      font-size: 1.5vw;
+    }
+  }
+
+  .contact-button {
+    font-size: 1.5vw;
+    padding: 1%;
+  }
+}
