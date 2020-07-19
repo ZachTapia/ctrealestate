@@ -1,0 +1,34 @@
+.contact-form {
+  font-size: 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh;
+
+  label {
+    font-family: Merriweather;
+    display: block;
+    margin: 2vh 0;
+  }
+
+  input {
+    display: block;
+    width: 50vw;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    outline: none;
+  }
+}
+
+.contact-button {
+  font-family: Merriweather;
+  font-size: 5vw;
+  padding: 3%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 3vh 0;
+}
