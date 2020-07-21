@@ -2,7 +2,7 @@ $backgroundColor: #457b9d;
 
 .testimonials {
   background-color: #fff;
-  padding: 5vh 0;
+  padding: 5vh 0 5vh;
 }
 
 .testimonials__title {
@@ -10,7 +10,7 @@ $backgroundColor: #457b9d;
   font-size: 8vw;
   color: $backgroundColor;
   background-color: #fff;
-  padding: 3vw;
+  text-align: center;
 }
 
 .testimonials__card {

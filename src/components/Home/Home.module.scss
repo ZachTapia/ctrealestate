@@ -1,27 +1,21 @@
 $backgroundColor: #457b9d;
 
 .home__title {
-  // font-family: Merriweather;
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 6.5vw;
   text-align: center;
   padding-top: 7vh;
-  height: 40vh;
+  height: 30vh;
 }
 
-.home__intro__image,
-.home__about__image {
-  width: 80vw;
-}
-
-.home__about__image {
-  margin: 0 auto;
+.home__intro__image {
+  width: 95vw;
 }
 
 .home__intro {
   position: relative;
-  height: 95vh;
+  height: 25vh;
   background-color: #fff;
 }
 
@@ -34,74 +28,34 @@ $backgroundColor: #457b9d;
 
 .image__wrapper {
   position: absolute;
-  top: -20%;
-  left: 10%;
-  right: 10%;
-}
-
-.home__about {
-  background-color: #fff;
-}
-
-.home__about__title {
-  font-family: Merriweather;
-  font-size: 8vw;
-  color: $backgroundColor;
-}
-
-.home__about__text {
-  color: black;
-  font-size: 5vw;
-  padding: 3vh 4vw 1.5vh;
-  line-height: 1.5;
+  top: -40%;
+  left: 2.5%;
+  right: 2.5%;
 }
 
 @media (min-width: 600px) {
   .home__title {
     font-size: 4.4vw;
     padding-top: 14vh;
+    height: 65vh;
   }
 
   .home__intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    height: 75vh;
   }
 
-  .home__intro__image,
-  .home__about__image {
-    width: 25vw;
+  .home__intro__image {
+    width: 65vw;
   }
 
-  .home__intro__text,
-  .home__about__text {
+  .home__intro__text {
     font-size: 1.5vw;
     max-width: 35vw;
     padding: 0;
   }
 
   .image__wrapper {
-    position: static;
-  }
-
-  .home__about__text {
-    color: black;
-    font-size: 1.2vw;
-  }
-
-  .home__about__wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .home__about__image {
-    margin: 0;
-  }
-
-  .home__about__title {
-    font-size: 2vw;
-    padding: 0;
+    left: 17.5%;
+    right: 17.5%;
   }
 }

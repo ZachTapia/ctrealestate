@@ -1,16 +1,14 @@
 .footer {
-  height: 2vh;
   text-align: center;
   font-family: Merriweather;
-  font-size: 2vw;
+  font-size: 4vw;
   color: black;
-  background-color: #ffffff;
-  padding: 10vh 0 8vh;
+  background-color: #fff;
+  padding: 5vh 0;
 }
 
 @media (min-width: 600px) {
   .footer {
-    height: 2vh;
     font-size: 1vw;
   }
 }

@@ -1,0 +1,37 @@
+.info {
+  background-color: #fff;
+}
+
+.info__contact,
+.info__address {
+  color: #000000;
+  font-size: 4vw;
+  line-height: 1.5;
+  margin: 2vh 0;
+}
+
+.info__logo {
+  width: 35vw;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .info__flex {
+    display: flex;
+    width: 30vw;
+    margin: 5vh auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .info__contact,
+  .info__address {
+    font-size: 1vw;
+    margin: 0;
+  }
+
+  .info__logo {
+    width: 7.5vw;
+    margin: 0 auto;
+  }
+}
