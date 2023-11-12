@@ -31,7 +31,7 @@ const Info = () => {
         </div>
 
         <div className={styles.info__contact}>
-          (562) 762-0055
+          (562) 762-0053
           <br />
           christine67tapia@aol.com
           <br />
